@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap%27'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    font-family: 'Press Start 2P', cursive;
+  } 
+  
+  html {
+    background-image: url('./images/pokemon-sol-bg.jpg');
+  }
+
+  header {
+    display: flex;
+    background: radial-gradient(circle, rgba(61,0,246,1) 0%, rgba(158,0,255,1) 100%);
+    justify-content: center;
+    padding: 2.5rem;
+    color: #ffff87;
+  } 
+
+  .nintendo {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem; 
+    position: relative;
+  } 
+
+  .pokemons {
+    position: absolute; 
+    margin-top: 7rem;
+  } 
+
+  .pokemon1 {
+    width: 200px;
+  } 
+
+  .pokemon2 {
+    width: 200px;
+  } 
+
+  .batalhar {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    background-color: #d94231;
+    transition: all .2s ease-in;
+  }
+
+  .batalhar:hover {
+    transform: scale(110%);
+  }
